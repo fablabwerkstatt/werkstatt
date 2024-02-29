@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Fab Lab Teens Werkstatt</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" >
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Roboto';
+        }
+        header {
+            padding: 20px;
+            background: #ffcc00;
+            text-align: center;
+        }
+        .logo {
+            max-width: 200px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        div.content {
+            padding: 20px;
+            text-align: left;
+        }
+        
+        .button {
+            background-color: #ffcc00;
+            border: none;
+            text-align: center;
+            display: inline-block;
+            padding: 30px;
+            margin: 10px 10px;
+            cursor: pointer;
+
+        }
+        .button:hover {
+            background-color: black;
+            color: #ffcc00;
+
+        }
+        .printing {
+            border-radius: 10px;
+        }
+        .laser {
+            border-radius: 10px;
+        }
+        .programming {
+            border-radius: 10px;
+        }
+        .robotics {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="C:\Users\Hina Firdaus\werkstatt\img\logo_lang.PNG" alt="logo" class="logo">
+        </div>
+        <h1>Fab Lab Teens Werkstatt</h1>
+            <div id="translate-lang"></div>
+                <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                <script type="text/javascript">
+                    function googleTranslateElementInit() {
+                        new google.translate.TranslateElement({pageLanguage: 'en'}, 'translate-lang');
+                    }
+                </script>
+                
+    </header>
+   
+    <div class="content">
+        
+        <p>Workshop will help you learn and improve 3D printing, laser cutting, microcontroller programming, and robotics</p>
+
+        <h5>Class Rules: Must for everyone to follow</h5>
+        <ul>
+            <li>Don't use mobile phone in class. Except with teacher's permission</li>
+            <li>Communicate in German and English language. Don't feel shy to fail!</li>
+            <li>No mobile, laptop, or any online games in the class</li>
+            <li>Participate in class discussion to practice communication, collaboration, critical thinking, and creativity</li>
+            <li>Respect yourself and everyone around you</li>
+            <li>Be creative. It helps you in solving problem faster. Makes you and everyone around you happy</li>
+            <li>Do not run, play around, and beat your friends in the Lab. You can hurt yourself and others.</li>
+            <li>No touching of the machines in fab lab when you are not familiar about it usage.</li>
+            <li><b>Do you promise to follow all the rules and make the best of this opportunity to learn here?</b></li>
+        </ul>
+        <h5>In case you failed to follow the rules</h5>
+        <ul>
+            <li>First Warning
+
+                Suspend for 30 min. NO laptop and Handy 
+                Sit silently without talking with anyone.</li>
+            <li>Second Warning
+
+                Suspend for 1 class
+                You will be asked to go home and parents will be informed.</li>
+            <li>Last Warning
+
+                Complete suspension</li>
+        </ul>
+    </div>
+    <div class="options">
+        <button class="button printing" onclick="window.location.href = 'printing.html';">3D Printing</button>
+        <button class="button laser">Lasering</button>
+        <button class="button programming">Microcontroller programming</button>
+        <button class="button robotics">Robotics</button>
+    </div>
+
+</body>
+</html>
